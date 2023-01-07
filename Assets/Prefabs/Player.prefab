@@ -93,8 +93,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4373578937169545110}
-  - component: {fileID: 699026297513555209}
-  - component: {fileID: 6116497157511734060}
+  - component: {fileID: 1730606038}
+  - component: {fileID: 1730606039}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -118,7 +118,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &699026297513555209
+--- !u!114 &1730606038
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -130,7 +130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: dc40ec067b7080947a4fc30c05ef07a8, type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: 95c647ab3d831ce429464b04b8844cbc, type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &6116497157511734060
+--- !u!114 &1730606039
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -157,11 +157,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1411351350669847544}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8e641045c1ff934cb0b771dbd6ae3f8, type: 3}
+  m_Script: {fileID: 11500000, guid: 9ccd0aba5aadfb74a885f42fa56ccd96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
   paddingLeft: 0.5
   paddingRight: 0.5
-  paddingTop: 3
+  paddingTop: 4
   paddingBottom: 2
