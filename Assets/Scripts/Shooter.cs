@@ -63,7 +63,7 @@ public class Shooter : MonoBehaviour
             
 
             float timeToNextProjectile = Random.Range(baseFiringRate - firingRateVariance,
-                                                    baseFiringRate + minimumFiringRate);
+                                                      baseFiringRate + minimumFiringRate);
             timeToNextProjectile = Mathf.Clamp(timeToNextProjectile, minimumFiringRate, float.MaxValue);
 
             audioPlayer.PlayShootingClip();
